@@ -1,7 +1,8 @@
 {
   "rewrites": [
     {
-      "outputPath": "dist/findex-frontend"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
